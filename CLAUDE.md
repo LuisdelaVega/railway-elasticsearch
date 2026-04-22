@@ -17,7 +17,7 @@ docker build -t railway-elasticsearch .
 Override the Elasticsearch version at build time:
 
 ```sh
-docker build --build-arg ELASTICSEARCH_VERSION=8.19.10 -t railway-elasticsearch .
+docker build --build-arg ELASTICSEARCH_VERSION=8.19.14 -t railway-elasticsearch .
 ```
 
 Run it locally against an ephemeral volume (mirrors Railway's root-owned mount by using a named volume; set an initial password via env):
